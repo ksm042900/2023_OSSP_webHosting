@@ -1,0 +1,72 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);
+
+body{
+    font-family: 'Roboto';
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(192, 178, 162);
+}
+/* 
+@media screen and (min-width: 1024px){
+    .container{
+        zoom: 0.8;
+    }
+} */
+
+/* 업로드 버튼 css */
+.filebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: rgb(255, 255, 255);
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color:  rgb(151, 139, 114);
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+  }
+  .filebox input[type="file"] {  /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+  }
+#h1_text{
+    color: rgb(66, 60, 53);
+}
+#kor_flagImg{
+    width: 30px;
+    margin-top: -6px;
+
+}
+
+.btn-outline-secondary{
+    background-color: rgb(185, 185, 185);
+    border-radius: 5px;
+}
+
+.card{
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#img{
+    border-radius: 10px;
+}
+
+#described{
+    position: relative;
+    height: 200px;
+    margin-top: -40px;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0;
+}
